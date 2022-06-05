@@ -1,0 +1,106 @@
+body{
+    background-color: hsl(239, 57%, 85%);
+    font-family: 'Rubik', sans-serif;
+}
+.comment-container-short{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.bottom-container{
+    display: flex;
+    width: 650px;
+    align-content: center;
+    justify-content: space-around;
+    border: black 1px solid;
+    padding: 13px;
+    border-radius: 20px;
+    align-items: center;
+    background-color: hsl(223, 19%, 93%);
+    margin-left: 150px;
+}
+
+.comment-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.top-container{
+    display: flex;
+    width: 800px;
+    align-content: center;
+    justify-content: space-around;
+    border: black 1px solid;
+    padding: 13px;
+    border-radius: 20px;
+    align-items: center;
+    background-color: hsl(223, 19%, 93%);
+}
+.button-group{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 23px 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.comment-content-top{
+    display: flex;
+}
+.comment-content-right{
+    display: flex;
+    flex-direction: column;
+}
+.comment-content-bottom{
+    display: flex;
+}
+
+button {
+    all: unset;
+    padding: 4px;
+}
+
+.up {
+    margin-bottom: 10px;
+}
+
+.down {
+    margin-top: 10px;
+}
+.profile-img {
+    width:40px;
+}
+
+.name-date {
+    display: flex;
+}
+
+.post-date {
+    padding: 10px;
+}
+
+.user-name {
+    padding: 10px;
+}
+
+.reply{
+    padding: 10px;
+}
+.reply-img{
+    padding-left: 355px;
+}
+
+.reply-bottom{
+    padding: 10px;
+}
+.reply-img-bottom{
+    padding-left: 244px;
+}
