@@ -104,3 +104,35 @@ button {
 .reply-img-bottom{
     padding-left: 244px;
 }
+
+.comment-add{
+    display: flex;
+    width: 660px;
+    height: 150px;
+}
+.send-btn{
+    display: flex;
+    background-color: hsl(211, 10%, 45%);
+    border-radius: 5px;
+    width: 61px;
+    height: 25px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.comment-new-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.add-container {
+    display: flex;
+    width: 800px;
+    align-content: center;
+    justify-content: space-between;
+    border: black 1px solid;
+    padding: 13px;
+    border-radius: 20px;
+    align-items: flex-start;
+    background-color: hsl(223, 19%, 93%);
+}
